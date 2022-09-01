@@ -1,6 +1,7 @@
 .top-banner {
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
+    background-position: 100%;
     background-size: 100% 100%;
 
 }
@@ -11,9 +12,27 @@
     padding-right: 10px;
     height: 600px;
     width: 100%;
+    align-items: center;
+    color: whitesmoke;
 }
 
-.top-banner text {
-    align-items: center;
-    color: yellow;
+h1 {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 60px;
+
+}
+
+p {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+#donate {
+    text-align: center;
+    font-size: 35px;
+    border: 10px solid salmon;
+
+
 }
